@@ -13,7 +13,7 @@
 .leftSide {
     width: 249px;
     background-color: #ffffff;
-    border-right: 1px solid  #E6EFF5;
+    border-right: 1px solid #E6EFF5;
     display: flex;
     gap: 5px;
     /* display: none; */
@@ -41,22 +41,54 @@
     margin-left: 38px;
     margin-top: 31px;
 }
+
 .rightSide {
     flex: 1;
     display: flex;
     flex-direction: column;
-    background-color: #F5F7FA; /* Light background */
+    background-color: #F5F7FA;
+    /* Light background */
 }
 
 .header {
     width: 100%;
     height: 85px;
-    background-color: #ffffff; /* Flat, clean background */
+    background-color: #ffffff;
+    /* Flat, clean background */
     display: flex;
     align-items: center;
     justify-content: flex-end;
     padding: 0 20px;
     border-bottom: 1px solid #E0E0E0;
+}
+
+.header h2 {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #343C6A;
+
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 34.1px;
+    text-align: left;
+    margin-top: 31px;
+}
+
+.header .logHeading {
+    display: flex;
+    display: none;
+}
+
+.header .HeadingImageHeader {
+    width: 36px;
+    height: 36px;
+    top: 31px;
+    left: 38px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: 38px;
+    margin-top: 31px;
+
 }
 
 .circles {
@@ -70,10 +102,12 @@
     justify-content: center;
     margin-left: 20px;
 }
-.bellImg{
+
+.bellImg {
     position: absolute;
 }
-.bellCircleImg{
+
+.bellCircleImg {
     position: relative;
     bottom: 7px;
     left: 7px;
@@ -102,9 +136,27 @@
     /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
 }
 
-.searchSort h2 {
+.searchSort .h2users {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.searchSort .leftArrow {
+    width: 34px;
+    height: 34px;
+    border: 1px solid #CED3DE;
+    border-radius: 12px;
+    text-align: center;
+    padding-top: 8px;
+    display: none;
+
+}
+
+.searchSort .h2users h2 {
     font-family: sans-serif;
-    color: #343C6A;
+    color: #000000;
     font-weight: bold;
     font-size: 20px;
 }
@@ -121,8 +173,9 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    
+
 }
+
 .searchInput {
     padding: 8px 15px;
     height: 45px;
@@ -131,14 +184,15 @@
     border-radius: 60px;
     font-size: 14px;
 }
+
 .searchInput::placeholder {
-             
+
     /* Firefox, Chrome, Opera */
     text-align: center;
 }
 
 
-.searchInputDiv .magnifyingGlass{
+.searchInputDiv .magnifyingGlass {
     margin-right: -28px;
     z-index: 1;
 }
@@ -209,7 +263,8 @@
 }
 
 /* User info section with image on the left and text on the right */
-.card-header, .user-info {
+.card-header,
+.user-info {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -217,13 +272,15 @@
     font-family: 'Catamaran', sans-serif;
 
 }
-.card-header h3{
-font-size: 17.83px;
-font-weight: 700;
+
+.card-header h3 {
+    font-size: 17.83px;
+    font-weight: 700;
 
 }
 
-.profile-image, .user-photo {
+.profile-image,
+.user-photo {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -263,14 +320,15 @@ font-weight: 700;
 
 /* User Traits Section */
 .user-traits-title {
-    
+
     font-size: 1rem;
     font-weight: bold;
     color: #343C6A;
     margin-top: 15px;
 }
 
-.traits, .user-traits {
+.traits,
+.user-traits {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
@@ -288,3 +346,83 @@ font-weight: 700;
     font-family: 'Catamaran', sans-serif;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .leftSide {
+        display: none;
+    }
+
+    .searchSort {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .searchSort .h2users {
+        margin-left: -400px;
+    }
+
+    .sortbar {
+        font-family: 'Nunito Sans', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 210px;
+        height: 45px;
+        padding: 5px 10px;
+        color: #8BA3CB;
+        background-color: #FFFFFF;
+        border-radius: 71px;
+        font-size: 14px;
+        gap: 5px;
+        cursor: pointer;
+    }
+
+    .searchSort .leftArrow {
+        margin-left: 20px;
+        display: block;
+
+    }
+
+    .header .logHeading {
+        display: flex;
+        margin-top: -30px;
+        margin-left: -200px;
+    }
+
+    .cardContainer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media (min-width: 600px) and (max-width: 900px) {
+    .cardContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+}
+
+

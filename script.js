@@ -1,15 +1,19 @@
-// script.js
+let usersData = [];
 
-// Fetch data from JSON file
 fetch('data.json')
     .then(response => response.json())
-    .then(data => displayCards(data))
+    .then(data => {
+        usersData = data;  
+        displayCards(usersData); 
+    })
     .catch(error => console.error('Error loading data:', error));
+
+
 
 // Function to display cards
 function displayCards(users) {
-    const cardContainer = document.querySelector('.cardContainer');
-    cardContainer.innerHTML = ''; // Clear any existing content
+    const cardContainer = document.getElementById('cardContainer');
+    cardContainer.innerHTML = ''; 
 
     users.forEach(user => {
         const card = document.createElement('div');
@@ -35,3 +39,11 @@ function displayCards(users) {
         cardContainer.appendChild(card);
     });
 }
+
+// Search functionality
+const searchInput = document.querySelector('.searchInput');
+searchInput.addEventListener('input', () => {
+    const query = searchInput.value.toLowerCase();
+    const filteredUsers = usersData.filter(user => user.name.toLowerCase().includes(query));
+    displayCards(filteredUsers);
+});

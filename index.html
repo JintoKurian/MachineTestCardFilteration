@@ -1,71 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BankDash</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-
     <div class="main">
-
         <div class="leftSide">
             <img src="https://s3-alpha-sig.figma.com/img/05a8/19c3/67411690aa8c050192d3c313d1614713?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DGVu9SvlZyH-1fIaAZD~AphxxX1uNTdL~UriBkcHYpb7BaA2hQDl7eHtS0R4D4nctx7eVpwJEkmm1IKwoCwQgyLlwzOh4Wu4W3SGKxR-b6dmbPHemWsmxJYdUs-mUCmv6atHxr0OVGBFcRvRfxqSY-HracchIEgZ~StyNxUY9YzEL3whpPLX~ytTn~oxZkNBV1ozcB73dviNDWyMlKz0CuyeCiWlZ0v7a879sLBBeX3mrv1v0paxIvDXH7~-ShHZNcpfEapm~VgAqgIbhwKnAqGuGTSjfBDyGtK8tHOpM8fIqVrvUHckBFqeWk0OPYVBl2Ro6Kgby4DCx29XYp57bg__"
                 alt="BankDash Logo" class="logo">
             <h2 class="dashboard-heading">BankDash.</h2>
         </div>
 
-
         <div class="rightSide">
             <div class="header">
-                <div class="circles">
-                    <img src="./assets/settings-1.svg" alt="My Image">
-                    <!-- <i class="fa-solid fa-lg fa-gear"></i> -->
-                </div>
-                <div class="circles">
-                    <img class="bellImg" src="./assets/bell.svg" alt="">
-                    <img class="bellCircleImg" src="./assets/bellCircle.svg" alt="">
-                </div>
-                <div class="circles photo">
 
+<div class="logHeading">
+    <img class="HeadingImageHeader" src="https://s3-alpha-sig.figma.com/img/05a8/19c3/67411690aa8c050192d3c313d1614713?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DGVu9SvlZyH-1fIaAZD~AphxxX1uNTdL~UriBkcHYpb7BaA2hQDl7eHtS0R4D4nctx7eVpwJEkmm1IKwoCwQgyLlwzOh4Wu4W3SGKxR-b6dmbPHemWsmxJYdUs-mUCmv6atHxr0OVGBFcRvRfxqSY-HracchIEgZ~StyNxUY9YzEL3whpPLX~ytTn~oxZkNBV1ozcB73dviNDWyMlKz0CuyeCiWlZ0v7a879sLBBeX3mrv1v0paxIvDXH7~-ShHZNcpfEapm~VgAqgIbhwKnAqGuGTSjfBDyGtK8tHOpM8fIqVrvUHckBFqeWk0OPYVBl2Ro6Kgby4DCx29XYp57bg__"
+                alt="BankDash Logo" class="logo">
+            <h2 class="dashboard-heading">BankDash.</h2>
+</div>
+
+                <div class="circles">
+                    <img src="./assets/settings-1.svg" alt="Settings">
                 </div>
+                <div class="circles">
+                    <img class="bellImg" src="./assets/bell.svg" alt="Notifications">
+                    <img class="bellCircleImg" src="./assets/bellCircle.svg" alt="Notification Circle">
+                </div>
+                <div class="circles photo"></div>
             </div>
 
             <div class="searchSort">
-                <h2>Users</h2>
+                <div class="h2users">
+                    <div class="leftArrow">
+                        <img src="./assets/leftArrow.svg" alt="">
+                    </div>
+                    <h2>Users</h2>
 
+                </div>
                 <div class="searchInputDiv">
-                    <!-- <i class="fa-solid fa-lg fa-magnifying-glass"></i>  -->
-                    <img class="magnifyingGlass" src="./assets/magnifying-glass.svg" alt="">
+                    <img class="magnifyingGlass" src="./assets/magnifying-glass.svg" alt="Search">
                     <input type="text" class="searchInput" placeholder="Search for something.">
                 </div>
-
-                <div class="sortbar">
-                    <!-- <i class="fa-solid fa-grip-lines fa-xl"></i> -->
-                     <img src="./assets//sortLinesimg.svg" alt="">
+                
+                <div class="sortbar" id="sortButton">
+                    <img src="./assets/sortLinesimg.svg" alt="Sort">
                     <p>Sort</p>
                 </div>
             </div>
 
-
             <div class="section">
-                <div class="cardContainer">
-                    <div class="card">
-
-                    </div>
-
-                </div>
+                <div class="cardContainer" id="cardContainer"></div>
             </div>
         </div>
     </div>
     <script src="script.js"></script>
-
 </body>
-
 </html>
