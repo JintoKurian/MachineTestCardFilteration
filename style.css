@@ -12,9 +12,11 @@
 
 .leftSide {
     width: 249px;
-    background-color: red;
+    background-color: #ffffff;
+    border-right: 1px solid  #E6EFF5;
     display: flex;
     gap: 5px;
+    /* display: none; */
 }
 
 .leftSide h2 {
@@ -60,22 +62,30 @@
 .circles {
     background: #E4E7EB;
     text-align: center;
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 15px;
+    margin-left: 20px;
+}
+.bellImg{
+    position: absolute;
+}
+.bellCircleImg{
+    position: relative;
+    bottom: 7px;
+    left: 7px;
 }
 
 .photo {
     background-image: url('https://s3-alpha-sig.figma.com/img/57d3/d250/790e98129931897251abd3915a931233?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lrFg-VRdKcaQo6cICPJQ1BQzfnHh3JKXJo19GZa1rGIOaPxmmvjuLdmfNj1psKliMDDK69C9Acnvgb-SOK-NjIJqzvWIrpFOgN2xvtXivRurWvNLFE6VCjH28XjDlSAQogQGCAfS5t7hdgDeu0jY8LoUywWLs1Qsm1SW5a9LQQWPyPycf1e0kMruNToMZa5itH~IB~YAdzZ7RzsRjo~vXuE2sgZjqAonIMZ5QCOj-6u5XTzL6jjJ-MRy1vSrGg9BkrnkBedBGAjwwbcpwMYEdVlviVLCNi-EzDYZRHY2hypCzX~8c3rZeOMN-fQ8iZNfE6lMtF2gPea0VH6vhr7cew__');
-    background-size: 204%;
-    background-position: 78% -2%;
+    background-size: 234%;
+    background-position: 75% 3%;
     background-repeat: no-repeat;
-    width: 60px;
-    height: 60px;
+    width: 54px;
+    height: 54px;
     border-radius: 50%;
     margin-right: 30px;
 }
@@ -83,12 +93,13 @@
 .searchSort {
     display: flex;
     align-items: center;
-    padding: 10px 20px;
+    padding: 0px 20px;
     gap: 15px;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
+    background-color: #F5F7FA;
     margin: 15px 40px;
     border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
 }
 
 .searchSort h2 {
@@ -98,21 +109,53 @@
     font-size: 20px;
 }
 
-.searchInput {
+.searchInputDiv {
     flex: 1;
+    padding: 2px 15px;
+    /* border: 1px solid #CFCFCF; */
+    background-color: #F5F7FA;
+
+    border: none;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.searchInput {
     padding: 8px 15px;
+    height: 45px;
     border: 1px solid #CFCFCF;
-    border-radius: 20px;
+    border: none;
+    border-radius: 60px;
     font-size: 14px;
 }
+.searchInput::placeholder {
+             
+    /* Firefox, Chrome, Opera */
+    text-align: center;
+}
+
+
+.searchInputDiv .magnifyingGlass{
+    margin-right: -28px;
+    z-index: 1;
+}
+
+
+
 
 .sortbar {
+    font-family: 'Nunito Sans', sans-serif;
     display: flex;
     align-items: center;
+    width: 82px;
+    height: 45px;
     padding: 5px 10px;
-    background-color: #343C6A;
-    border-radius: 20px;
-    color: #FFFFFF;
+    color: #8BA3CB;
+    background-color: #FFFFFF;
+    border-radius: 71px;
     font-size: 14px;
     gap: 5px;
     cursor: pointer;
@@ -141,35 +184,55 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* Card layout and ensuring content fits within the card */
 .card {
     background-color: #FFFFFF;
     border-radius: 12px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
     padding: 20px;
-    height: auto;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: auto;
 }
 
-
-.user-info {
+/* User info section with image on the left and text on the right */
+.card-header, .user-info {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
     margin-bottom: 10px;
+    font-family: 'Catamaran', sans-serif;
+
+}
+.card-header h3{
+font-size: 17.83px;
+font-weight: 700;
+
 }
 
-.user-photo {
-    width: 60px;
-    height: 60px;
+.profile-image, .user-photo {
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
+    object-fit: cover;
     flex-shrink: 0;
 }
 
+/* User details styling */
 .user-name {
-    font-family: 'Nunito Sans', sans-serif;
     font-size: 1.1rem;
     font-weight: bold;
     color: #333;
@@ -182,8 +245,9 @@
     margin-top: 5px;
 }
 
-
+/* Occupation, location, and description styling */
 .card p {
+    font-family: 'Catamaran', sans-serif;
     font-size: 0.9rem;
     color: #555;
     line-height: 1.4;
@@ -197,15 +261,16 @@
     line-height: 1.5;
 }
 
-
+/* User Traits Section */
 .user-traits-title {
+    
     font-size: 1rem;
     font-weight: bold;
     color: #343C6A;
     margin-top: 15px;
 }
 
-.user-traits {
+.traits, .user-traits {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
@@ -213,12 +278,13 @@
 }
 
 .trait {
-    background-color: #F1F3F5;
-    color: #555;
+    background-color: #E4E7EB;
+    padding: 5px 10px;
+    border-radius: 12px;
     font-size: 0.8rem;
-    padding: 6px 12px;
-    border-radius: 10px;
-    text-align: center;
+    color: #555;
     white-space: nowrap;
-}
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
 
+}

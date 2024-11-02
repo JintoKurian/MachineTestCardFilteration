@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Jermaine Cole",
+        "age": 64,
+        "gender": "Male",
+        "occupation": "Accountant",
+        "location": "Himmel",
+        "description": "Jermaine Cole is a traditional book-worm and has always been from a young age. She is a housekeeper mom with two kids and she has a lot of time to read and relax.",
+        "traits": ["Forgetful", "Calm", "Generous", "Cool", "Amazing"],
+        "image": "https://s3-alpha-sig.figma.com/img/4596/79f6/c0c1f4c69f7c2368440bfc85e940b511?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OwnpW0Bk0mwFBuHhCR04UNEno6A2quUDgOg7Mm4rqdig6emVJkuZwxCkZzavnLfZhQ1sZDY26TS19y3YpmGR8tYnjBki3Flh08FSGtPwehSzfrzGz37EgMx85Iy721Wn~CVUcbaeeOcRoxxQRHbgHpBlbS430Cy70I~OJRCaKmryMhRk1E1Eax~vJyhtwfGDKgLj3cMSn9DcKapBHTHpY8kV9Q~BB~QMKgl-DVmUuSFOHzjjtkrN1pkfkr5I~rW4h8QExpDzJm9KcGzHnMK6pgWnVq44WTqxVvX61xFE1qARrDRUfkMzmSbhfIaCC9PZ~h-MrnuG04MRI0maIz2Hcg__"
+    },
+    {
+        "name": "Sophia Turner",
+        "age": 28,
+        "gender": "Female",
+        "occupation": "Engineer",
+        "location": "Paris",
+        "description": "Jermaine Cole is a traditional book-worm and has always been from a young age. She is a housekeeper mom with two kids and she has a lot of time to read and relax.",
+        "traits": ["Determined", "Creative", "Curious", "Empathetic"],
+        "image": "https://s3-alpha-sig.figma.com/img/a0bd/5a15/758288ff5165913073569be101d5c4fb?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=f4lxBI6ruNp451Srm0bRoAmz3~fzZG6WaE-ugi7mpEsCAuZllqQsfNAv4WwMN1GT6XWrr7T6kNtu7yhvUVTaaBE12Hbnz~l61A0iNmDKuE~voD5JgTTpkkEEd-tvHoy8I2mwOl27p78ib3Ylvo380Cw0~Cm029WY5Wx1K0Ad71rhj0Wbu8n3YouWNgPfSQ4R~kOlhguTPYbWaaacH0w4mT1hMn-pbpc9oLjysz4wuhuK0~tLg9eMKAbJ75F6zZpaFV5aabrPumSkzYaxvbBbHVODafuFyK-R4DV0u8TSOEMe3orJ4c4RCVarOUKMlCDGZRddKrsLc8XbqGVYT6VqtA__"
+    },
+    {
+        "name": "John Doe",
+        "age": 35,
+        "gender": "Male",
+        "occupation": "Writer",
+        "location": "New York",
+        "description": "Jermaine Cole is a traditional book-worm and has always been from a young age. She is a housekeeper mom with two kids and she has a lot of time to read and relax.",
+        "traits": ["Passionate", "Thoughtful", "Analytical", "Kind"],
+        "image": "https://s3-alpha-sig.figma.com/img/a0bd/5a15/758288ff5165913073569be101d5c4fb?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=f4lxBI6ruNp451Srm0bRoAmz3~fzZG6WaE-ugi7mpEsCAuZllqQsfNAv4WwMN1GT6XWrr7T6kNtu7yhvUVTaaBE12Hbnz~l61A0iNmDKuE~voD5JgTTpkkEEd-tvHoy8I2mwOl27p78ib3Ylvo380Cw0~Cm029WY5Wx1K0Ad71rhj0Wbu8n3YouWNgPfSQ4R~kOlhguTPYbWaaacH0w4mT1hMn-pbpc9oLjysz4wuhuK0~tLg9eMKAbJ75F6zZpaFV5aabrPumSkzYaxvbBbHVODafuFyK-R4DV0u8TSOEMe3orJ4c4RCVarOUKMlCDGZRddKrsLc8XbqGVYT6VqtA__"
+    },
+    {
+        "name": "Jermaine Cole",
+        "age": 64,
+        "gender": "Male",
+        "occupation": "Accountant",
+        "location": "Himmel",
+        "description": "Jermaine Cole is a traditional book-worm and has always been from a young age. She is a housekeeper mom with two kids and she has a lot of time to read and relax.",
+        "traits": ["Forgetful", "Calm", "Generous", "Cool", "Amazing"],
+        "image": "https://s3-alpha-sig.figma.com/img/4596/79f6/c0c1f4c69f7c2368440bfc85e940b511?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OwnpW0Bk0mwFBuHhCR04UNEno6A2quUDgOg7Mm4rqdig6emVJkuZwxCkZzavnLfZhQ1sZDY26TS19y3YpmGR8tYnjBki3Flh08FSGtPwehSzfrzGz37EgMx85Iy721Wn~CVUcbaeeOcRoxxQRHbgHpBlbS430Cy70I~OJRCaKmryMhRk1E1Eax~vJyhtwfGDKgLj3cMSn9DcKapBHTHpY8kV9Q~BB~QMKgl-DVmUuSFOHzjjtkrN1pkfkr5I~rW4h8QExpDzJm9KcGzHnMK6pgWnVq44WTqxVvX61xFE1qARrDRUfkMzmSbhfIaCC9PZ~h-MrnuG04MRI0maIz2Hcg__"
+    },
+    {
+        "name": "Sophia Turner",
+        "age": 28,
+        "gender": "Female",
+        "occupation": "Engineer",
+        "location": "Paris",
+        "description": "Jermaine Cole is a traditional book-worm and has always been from a young age. She is a housekeeper mom with two kids and she has a lot of time to read and relax.",
+        "traits": ["Determined", "Creative", "Curious", "Empathetic"],
+        "image": "https://s3-alpha-sig.figma.com/img/a0bd/5a15/758288ff5165913073569be101d5c4fb?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=f4lxBI6ruNp451Srm0bRoAmz3~fzZG6WaE-ugi7mpEsCAuZllqQsfNAv4WwMN1GT6XWrr7T6kNtu7yhvUVTaaBE12Hbnz~l61A0iNmDKuE~voD5JgTTpkkEEd-tvHoy8I2mwOl27p78ib3Ylvo380Cw0~Cm029WY5Wx1K0Ad71rhj0Wbu8n3YouWNgPfSQ4R~kOlhguTPYbWaaacH0w4mT1hMn-pbpc9oLjysz4wuhuK0~tLg9eMKAbJ75F6zZpaFV5aabrPumSkzYaxvbBbHVODafuFyK-R4DV0u8TSOEMe3orJ4c4RCVarOUKMlCDGZRddKrsLc8XbqGVYT6VqtA__"
+    },
+    {
+        "name": "John Doe",
+        "age": 35,
+        "gender": "Male",
+        "occupation": "Writer",
+        "location": "New York",
+        "description": "Jermaine Cole is a traditional book-worm and has always been from a young age. She is a housekeeper mom with two kids and she has a lot of time to read and relax.",
+        "traits": ["Passionate", "Thoughtful", "Analytical", "Kind"],
+        "image": "https://s3-alpha-sig.figma.com/img/a0bd/5a15/758288ff5165913073569be101d5c4fb?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=f4lxBI6ruNp451Srm0bRoAmz3~fzZG6WaE-ugi7mpEsCAuZllqQsfNAv4WwMN1GT6XWrr7T6kNtu7yhvUVTaaBE12Hbnz~l61A0iNmDKuE~voD5JgTTpkkEEd-tvHoy8I2mwOl27p78ib3Ylvo380Cw0~Cm029WY5Wx1K0Ad71rhj0Wbu8n3YouWNgPfSQ4R~kOlhguTPYbWaaacH0w4mT1hMn-pbpc9oLjysz4wuhuK0~tLg9eMKAbJ75F6zZpaFV5aabrPumSkzYaxvbBbHVODafuFyK-R4DV0u8TSOEMe3orJ4c4RCVarOUKMlCDGZRddKrsLc8XbqGVYT6VqtA__"
+    }
+]
