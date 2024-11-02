@@ -131,10 +131,94 @@
     gap: 20px;
 }
 
-.card {
+/* .card {
     background-color: #FFFFFF;
     border-radius: 12px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     height: 250px;
+} */
+
+
+
+.card {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.user-photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.user-name {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.user-age-gender {
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 5px;
+}
+
+
+.card p {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.4;
+    margin: 5px 0;
+}
+
+.user-description {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+
+.user-traits-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #343C6A;
+    margin-top: 15px;
+}
+
+.user-traits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.trait {
+    background-color: #F1F3F5;
+    color: #555;
+    font-size: 0.8rem;
+    padding: 6px 12px;
+    border-radius: 10px;
+    text-align: center;
+    white-space: nowrap;
+}
+
